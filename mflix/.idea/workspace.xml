@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mflix/api/daos/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mflix/api/daos/MovieDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-    </list>
+    <list default="true" id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +140,7 @@
       <workItem from="1566655531838" duration="6894000" />
       <workItem from="1566665752009" duration="2476000" />
       <workItem from="1566668354620" duration="786000" />
-      <workItem from="1566669478557" duration="1601000" />
+      <workItem from="1566669478557" duration="2291000" />
     </task>
     <servers />
   </component>
