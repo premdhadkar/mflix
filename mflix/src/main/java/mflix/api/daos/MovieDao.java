@@ -11,6 +11,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -117,12 +118,14 @@ public class MovieDao extends AbstractMFlixDao {
    * @return List of matching Document objects.
    */
   public List<Document> getMoviesByCountry(String... country) {
-
-    Bson queryFilter = new Document();
-    Bson projection = new Document();
-    //TODO> Ticket: Projection - implement the query and projection required by the unit test
+    Bson queryFilter = Filters.in("countries",country);
+    Bson projection = Projections.include("title");
     List<Document> movies = new ArrayList<>();
-
+    moviesCollection
+            .find(queryFilter)
+            .projection(projection)
+            .iterator()
+            .forEachRemaining(movies::add);
     return movies;
   }
 

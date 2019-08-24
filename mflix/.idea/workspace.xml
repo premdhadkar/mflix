@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de7eb7b3-6cce-4095-a6a6-9883ec10e907" name="Default Changelist" comment="" />
+    <list default="true" id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mflix/api/daos/MovieDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mflix/api/daos/MovieDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mflix/api/daos/MovieDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,8 +27,10 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="1PqR4uZfeABo6R08idwadqXsxio" />
+  <component name="ProjectId" id="1PsGjSSiqSEfdfVVdBbCfTCsJCG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
@@ -32,8 +46,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QueryBuilders.testMultiplePredicates">
-    <configuration name="MongoClientLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ProjectionTest">
+    <configuration name="BasicReads.testProjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
@@ -42,71 +56,71 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.MongoClientLesson" />
+      <option name="MAIN_CLASS_NAME" value="mflix.lessons.BasicReads" />
+      <option name="METHOD_NAME" value="testProjection" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BasicReads.testProjectsAway_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.lessons" />
+      <option name="MAIN_CLASS_NAME" value="mflix.lessons.BasicReads" />
+      <option name="METHOD_NAME" value="testProjectsAway_id" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.api.daos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.api.daos" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MongoClientLesson.MongoDatabaseInstance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectionTest.testFindMoviesByCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="PATTERN" value="mflix.api.daos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.MongoClientLesson" />
-      <option name="METHOD_NAME" value="MongoDatabaseInstance" />
+      <option name="PACKAGE_NAME" value="mflix.api.daos" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
+      <option name="METHOD_NAME" value="testFindMoviesByCountry" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueryBuilders.contrastArrayInQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectionTest.testProjectionShape" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="PATTERN" value="mflix.api.daos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.QueryBuilders" />
-      <option name="METHOD_NAME" value="contrastArrayInQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryBuilders.testContrastSingleFieldQuery" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.QueryBuilders" />
-      <option name="METHOD_NAME" value="testContrastSingleFieldQuery" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryBuilders.testMultiplePredicates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.QueryBuilders" />
-      <option name="METHOD_NAME" value="testMultiplePredicates" />
+      <option name="PACKAGE_NAME" value="mflix.api.daos" />
+      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
+      <option name="METHOD_NAME" value="testProjectionShape" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -114,11 +128,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.QueryBuilders.testMultiplePredicates" />
-        <item itemvalue="JUnit.QueryBuilders.contrastArrayInQuery" />
-        <item itemvalue="JUnit.QueryBuilders.testContrastSingleFieldQuery" />
-        <item itemvalue="JUnit.MongoClientLesson" />
-        <item itemvalue="JUnit.MongoClientLesson.MongoDatabaseInstance" />
+        <item itemvalue="JUnit.ProjectionTest" />
+        <item itemvalue="JUnit.ProjectionTest.testProjectionShape" />
+        <item itemvalue="JUnit.ProjectionTest.testFindMoviesByCountry" />
+        <item itemvalue="JUnit.BasicReads.testProjectsAway_id" />
+        <item itemvalue="JUnit.BasicReads.testProjection" />
       </list>
     </recent_temporary>
   </component>
@@ -127,17 +141,32 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="de7eb7b3-6cce-4095-a6a6-9883ec10e907" name="Default Changelist" comment="" />
-      <created>1566599451515</created>
+      <changelist id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="" />
+      <created>1566655524125</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1566599451515</updated>
-      <workItem from="1566599454287" duration="12971000" />
-      <workItem from="1566647733019" duration="3024000" />
+      <updated>1566655524125</updated>
+      <workItem from="1566655531838" duration="6894000" />
+      <workItem from="1566665752009" duration="2476000" />
+      <workItem from="1566668354620" duration="786000" />
+      <workItem from="1566669478557" duration="1601000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
