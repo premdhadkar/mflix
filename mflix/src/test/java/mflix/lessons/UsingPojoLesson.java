@@ -10,6 +10,7 @@ import org.bson.codecs.pojo.ClassModel;
 import org.bson.codecs.pojo.ClassModelBuilder;
 import org.bson.codecs.pojo.PojoCodecProvider;
 import org.bson.codecs.pojo.PropertyModelBuilder;
+import org.bson.codecs.pojo.annotations.BsonProperty;
 import org.bson.conversions.Bson;
 import org.bson.types.ObjectId;
 import org.junit.After;
@@ -71,6 +72,7 @@ public class UsingPojoLesson extends AbstractLesson {
      * Now we can create two document objects and fill in each field
      * value.
      */
+
 
     Document actorDocument1 = new Document();
     actorDocument1.append("name", "Bruce Campbell");

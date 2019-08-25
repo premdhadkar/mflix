@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="" />
+    <list default="true" id="723d41d4-d9e5-4f51-ad79-6f3a1ffb51ab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/UsingPojoLesson.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/mflix/lessons/utils/ActorWithStringId.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,39 +42,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectionTest">
-    <configuration name="BasicReads.testProjection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.BasicReads" />
-      <option name="METHOD_NAME" value="testProjection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BasicReads.testProjectsAway_id" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.lessons.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.lessons" />
-      <option name="MAIN_CLASS_NAME" value="mflix.lessons.BasicReads" />
-      <option name="METHOD_NAME" value="testProjectsAway_id" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.UsingPojoLesson">
     <configuration name="ProjectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mflix" />
       <extension name="coverage">
@@ -81,22 +54,6 @@
       <option name="PACKAGE_NAME" value="mflix.api.daos" />
       <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProjectionTest.testFindMoviesByCountry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mflix" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="mflix.api.daos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="mflix.api.daos" />
-      <option name="MAIN_CLASS_NAME" value="mflix.api.daos.ProjectionTest" />
-      <option name="METHOD_NAME" value="testFindMoviesByCountry" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,13 +74,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsingPojoLesson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.lessons" />
+      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingPojoLesson.testReadObjectWithCustomFieldCodec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.lessons" />
+      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
+      <option name="METHOD_NAME" value="testReadObjectWithCustomFieldCodec" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UsingPojoLesson.testReadUsingPojo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mflix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mflix.lessons.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mflix.lessons" />
+      <option name="MAIN_CLASS_NAME" value="mflix.lessons.UsingPojoLesson" />
+      <option name="METHOD_NAME" value="testReadUsingPojo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UsingPojoLesson" />
+        <item itemvalue="JUnit.UsingPojoLesson.testReadObjectWithCustomFieldCodec" />
+        <item itemvalue="JUnit.UsingPojoLesson.testReadUsingPojo" />
         <item itemvalue="JUnit.ProjectionTest" />
         <item itemvalue="JUnit.ProjectionTest.testProjectionShape" />
-        <item itemvalue="JUnit.ProjectionTest.testFindMoviesByCountry" />
-        <item itemvalue="JUnit.BasicReads.testProjectsAway_id" />
-        <item itemvalue="JUnit.BasicReads.testProjection" />
       </list>
     </recent_temporary>
   </component>
@@ -141,6 +145,7 @@
       <workItem from="1566665752009" duration="2476000" />
       <workItem from="1566668354620" duration="786000" />
       <workItem from="1566669478557" duration="2291000" />
+      <workItem from="1566756901765" duration="5653000" />
     </task>
     <servers />
   </component>
